@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "expo-sensors-47",
-    "slug": "expo-sensors-47",
+    "name": "Expo Sensors",
+    "slug": "expo-sensors-sdk-47",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -12,7 +12,8 @@
       "backgroundColor": "#ffffff"
     },
     "updates": {
-      "fallbackToCacheTimeout": 0
+      "fallbackToCacheTimeout": 0,
+      "url": "https://u.expo.dev/14c05213-8891-4c4f-b77e-4f637b0eabb5"
     },
     "assetBundlePatterns": [
       "**/*"
@@ -24,10 +25,20 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.fullstack66.exposensorssdk47"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "14c05213-8891-4c4f-b77e-4f637b0eabb5"
+      }
+    },
+    "owner": "fullstack-66",
+    "runtimeVersion": {
+      "policy": "sdkVersion"
     }
   }
 }
