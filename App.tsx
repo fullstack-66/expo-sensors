@@ -12,7 +12,7 @@ export default function App() {
   const [data, setData] = useState<AccelerometerMeasurement>(initialData);
   const [subscription, setSubscription] = useState<any>(null);
   const _slow = () => Accelerometer.setUpdateInterval(1000);
-  const _fast = () => Accelerometer.setUpdateInterval(500);
+  const _fast = () => Accelerometer.setUpdateInterval(100);
   const _subscribe = () => {
     setSubscription(Accelerometer.addListener(setData));
   };
